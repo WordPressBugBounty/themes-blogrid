@@ -2,9 +2,9 @@
 
 Contributors: themeeverest  
 Requires at least: 4.0  
-Tested up to: 5.9
-Stable tag: 3.2
-Version: 3.2
+Tested up to: 6.9
+Stable tag: 5.7
+Version: 5.7
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 Tags: two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, blog, entertainment, news
@@ -18,7 +18,7 @@ Blogrid is a clean and creative blog theme for writers and bloggers. The theme i
 
 
 ## Copyright
-Blogrid WordPress Theme, Copyright 2022 themeeverest
+Blogrid WordPress Theme, Copyright 2026 themeeverest
 Blogrid is distributed under the terms of the GNU GPL
 
 Blogrid bundles the following third-party resources:
