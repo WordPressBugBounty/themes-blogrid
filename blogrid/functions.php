@@ -244,6 +244,22 @@ function blogrid_google_fonts() {
 
 add_action( 'wp_enqueue_scripts', 'blogrid_google_fonts' );
 
+/**
+ * Fix editor font after WP 7.0.
+ */
+function blogrid_editor_font_fix() {
+	wp_add_inline_style(
+		'blogrid-google-fonts',
+		'
+		body,
+		.editor-styles-wrapper {
+			font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+		}
+		'
+	);
+}
+add_action( 'enqueue_block_assets', 'blogrid_google_fonts' );
+add_action( 'enqueue_block_assets', 'blogrid_editor_font_fix', 20 );
 
 /**
  * Dots after excerpt
